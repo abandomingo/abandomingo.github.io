@@ -17,3 +17,9 @@ Styled and organized using react-bootstrap and uses react-spring and react-visib
 - Add more animations
 - Add pictures
 - Add work history
+
+
+Helpful Links that help set up this site:
+https://talk.jekyllrb.com/t/cannot-deploy-site-via-github/6883/15
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites
+https://www.pluralsight.com/guides/fix-create-react-app-showing-readme.md
