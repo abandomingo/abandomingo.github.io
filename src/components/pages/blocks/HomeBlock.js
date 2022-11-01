@@ -1,6 +1,6 @@
 import { Col, Row, Image } from "react-bootstrap";
 import { GithubLogo, LinkedInLogo } from "../../../assets/icons/icons";
-import Profile from "../../../assets/hehecat.jpg";
+import Profile from "../../../assets/me_@SB.jpg";
 import {
     FadeInFromTop,
     FadeInFromLeft,
@@ -11,16 +11,16 @@ import {
 const HomeBlock = () => {
     return (
         <div class="heading-3 center text-info">
-            <Col md={40}>
-                    <FadeInFromTop>
-                        <Row>
-                            <Image src={Profile} roundedCircle fluid />
-                        </Row>
-                    </FadeInFromTop>
-                </Col>
+        <Col>
             <FadeInFromTop>
                 <Row>
-                    <h3 class="display-4 auto">Aban Domingo</h3>
+                    <Image className="rounded mx-auto d-block" src={Profile}/>
+                </Row>
+            </FadeInFromTop>
+        </Col>
+            <FadeInFromTop>
+                <Row>
+                    <h3 class="display-4 auto">Aban Michael Domingo</h3>
                 </Row>
             </FadeInFromTop>
             <FadeInFromLeft>

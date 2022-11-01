@@ -1,5 +1,5 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
-import Profile from "../../../assets/hehecat.jpg";
+import Profile from "../../../assets/me_nature.jpg";
 import {
     FadeInFromLeft,
     FadeInFromRight,
@@ -17,7 +17,7 @@ const BioBlock = () => {
                 <Col md={4}>
                     <FadeInFromLeft>
                         <Row>
-                            <Image src={Profile} roundedCircle fluid />
+                            <Image src={Profile} roundedCircle/>
                         </Row>
                     </FadeInFromLeft>
                 </Col>
@@ -31,11 +31,11 @@ const BioBlock = () => {
                                     class="text-light"
                                     style={{ fontSize: "1.3em" }}
                                 >
-                                    I am currently a Student who is looking for internship 
-                                    opportunities.
+                                    Hello! My name is Aban Michael Domingo, I am student 
+                                    looking for internship opportunities. 
                                     <br />
                                     <br />
-                                    I love the outdoors, spending quality time with my friends,
+                                    &emsp; I love the outdoors, spending quality time with my friends,
                                     and working on side projects in my free time. 
                                     I am really passionate about innovating and creating something 
                                     new and exciting.

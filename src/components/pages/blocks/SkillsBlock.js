@@ -1,13 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
 import {
-    JavaLogo,
     JavascriptLogo,
-    TypescriptLogo,
     PythonLogo,
     CSharpLogo,
     Html5Logo,
     CPPLogo,
     PHPLogo,
+    SQLLogo,
 
 } from "../../../assets/icons/icons";
 import { FadeInFromRight, FadeInFromLeft } from "../../Animations";
@@ -35,13 +34,10 @@ const SkillsBlock = () => {
                         <PHPLogo width="100" height="100" />
                     </Col>
                     <Col sm="auto" md="auto">
+                        <SQLLogo width="100" height="100" />
+                    </Col>
+                    <Col sm="auto" md="auto">
                         <CPPLogo width="100" height="100" />
-                    </Col>
-                    <Col sm="auto" md="auto">
-                        <TypescriptLogo width="100" height="100" />
-                    </Col>
-                    <Col sm="auto" md="auto">
-                        <JavaLogo width="100" height="100" />
                     </Col>
                     <Col sm="auto" md="auto">
                         <Html5Logo width="100" height="100" />
@@ -84,6 +80,7 @@ const SkillsBlock = () => {
                         <h4 class="text-info">Database and Data Analysis</h4>
                         <ul class="display-5 text-info">
                             <li>R Studio</li>
+                            <li>MySQL</li>
                             <li>Microsoft Excel</li>
                         </ul>
                     </Col>
