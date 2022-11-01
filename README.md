@@ -15,8 +15,10 @@ Styled and organized using react-bootstrap and uses react-spring and react-visib
 4. Run command `npm run deploy`.
 
 ### TODO:
--Add projects and other skills 
+-Add projects and other skills
+
 -Add pictures and gifs
+
 -Clean Format 
 
 
