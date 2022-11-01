@@ -2,6 +2,8 @@
 
 https://abandomingo.github.io/
 
+This webstie is not currently finished but please feel free to look at it.
+
 This personal website is open-source and free to use as a template. Developed using React and hosted on Github Pages as SPA (Single Page Application).
 Styled and organized using react-bootstrap and uses react-spring and react-visibility-sensor for animations.
 
@@ -13,10 +15,10 @@ Styled and organized using react-bootstrap and uses react-spring and react-visib
 4. Run command `npm run deploy`.
 
 ### TODO:
-- Remove excess css
-- Add more animations
-- Add pictures
-- Add work history
+-Add projects and other skills 
+-Add pictures and gifs
+-Clean Format 
+
 
 
 Helpful Links that help set up this site:
