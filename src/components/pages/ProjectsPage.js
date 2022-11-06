@@ -51,6 +51,26 @@ const ProjectPage = () => {
                         </Col>
                     </Row>
                 </Container>
+                <Container style={{ padding: "50px" }}>
+                    <Row>
+                        <Col>
+                            <h3>Kaprekar's Constant Calculator</h3>
+                            <p>
+                            Python program that takes a 4-digit user input (ex. 4123) and sorts the number in 
+                            ascending order (4321) and another in descending order (1234), then subtracting 
+                            the two (4321 - 1234 = 3087) which repeats until we reach Kaprekar's Constant, 6174. 
+                            </p>
+                            <GithubLogo
+                                width="40"
+                                height="40"
+                                onClick={() => {
+                                    window.location.href =
+                                        "https://github.com/abandomingo/kaprekarconstant";
+                                }}
+                            />
+                        </Col>
+                    </Row>
+                </Container>
             </FadeInFromLeft>
         </Container>
     );
