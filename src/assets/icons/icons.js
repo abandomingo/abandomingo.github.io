@@ -10,6 +10,7 @@ import { ReactComponent as LinkedInLogo } from "./linkedin.svg";
 import { ReactComponent as CPPLogo } from "./c.svg";
 import { ReactComponent as PHPLogo } from "./PHP.svg";
 import { ReactComponent as SQLLogo } from "./sql.svg";
+import { ReactComponent as YoutubeLogo } from "./youtube.svg";
 export {
     ReactLogo,
     GithubLogo,
@@ -23,4 +24,5 @@ export {
     CPPLogo,
     PHPLogo,
     SQLLogo,
+    YoutubeLogo,
 };

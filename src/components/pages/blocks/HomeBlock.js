@@ -25,7 +25,7 @@ const HomeBlock = () => {
             </FadeInFromTop>
             <FadeInFromLeft>
                 <Row>
-                    <h3 class="display-6 auto">Undergraduate at Cal State Fullerton</h3>
+                    <h3 class="display-6 auto">Undergraduate at California State University, Fullerton</h3>
                 </Row>
             </FadeInFromLeft>
             <FadeInFromRight>

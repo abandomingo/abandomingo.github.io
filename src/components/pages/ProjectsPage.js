@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { GithubLogo } from "../../assets/icons/icons";
+import { YoutubeLogo } from "../../assets/icons/icons";
 import { FadeInFromLeft } from "../Animations";
 
 // TODO: Programmatically create the projects blocks from a json.
@@ -34,18 +35,20 @@ const ProjectPage = () => {
                 <Container style={{ padding: "50px" }}>
                     <Row>
                         <Col>
-                            <h3>Click Your Friends!</h3>
+                            <h3>Doctor Office Website</h3>
                             <p>
-                                Interactive idle game that allows users to import photos of 
-                                their friends and generate clones of them. Created using Unity engine 
-                                and C#.
+                            A mock hospital website with database integration that allows users to 
+                            retrieve and update data from a MYSQL Workbench database. 
+                            Made using PHP, SQL, HTML, and CSS with the use of XAMPP and MYSQL Workbench.
+                            <br/>
+                            <a href ="https://www.youtube.com/watch?v=Lb-wremQen0">View Here</a>
                             </p>
-                            <GithubLogo
+                            <YoutubeLogo
                                 width="40"
                                 height="40"
                                 onClick={() => {
                                     window.location.href =
-                                        "https://github.com/abandomingo/AccumulateRenzel";
+                                        "https://www.youtube.com/watch?v=Lb-wremQen0";
                                 }}
                             />
                         </Col>
@@ -66,6 +69,26 @@ const ProjectPage = () => {
                                 onClick={() => {
                                     window.location.href =
                                         "https://github.com/abandomingo/kaprekarconstant";
+                                }}
+                            />
+                        </Col>
+                    </Row>
+                </Container>
+                <Container style={{ padding: "50px" }}>
+                    <Row>
+                        <Col>
+                            <h3>Click Your Friends!</h3>
+                            <p>
+                                Interactive idle game that allows users to import photos of 
+                                their friends and generate clones of them. Created using Unity engine 
+                                and C#.
+                            </p>
+                            <GithubLogo
+                                width="40"
+                                height="40"
+                                onClick={() => {
+                                    window.location.href =
+                                        "https://github.com/abandomingo/AccumulateRenzel";
                                 }}
                             />
                         </Col>

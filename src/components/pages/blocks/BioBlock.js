@@ -31,8 +31,8 @@ const BioBlock = () => {
                                     class="text-light"
                                     style={{ fontSize: "1.3em" }}
                                 >
-                                    Hello! My name is Aban Michael Domingo, I am student 
-                                    looking for internship opportunities. 
+                                    Hello! My name is Aban Michael Domingo, I am currently a student at 
+                                    CSUF and in search for internship opportunities. 
                                     <br />
                                     <br />
                                     &emsp; I love the outdoors, spending quality time with my friends,
