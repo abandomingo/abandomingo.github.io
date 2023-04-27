@@ -39,6 +39,15 @@ const NavBar = () => {
                             Projects
                         </Nav.Link>
                     </Nav.Item>
+                    <Nav.Item class="nav-item mx-2">
+                        <Nav.Link
+                            class="nav-link"
+                            eventKey="/work"
+                            onClick={() => setPage("work")}
+                        >
+                            Work
+                        </Nav.Link>
+                    </Nav.Item>
                 </Nav>
             </div>
         </div>

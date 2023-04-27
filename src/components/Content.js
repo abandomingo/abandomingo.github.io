@@ -4,6 +4,7 @@ import { Container, Row } from "react-bootstrap";
 import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectsPage";
 import AboutPage from "./pages/AboutPage";
+import WorkPage from "./pages/WorkPage";
 
 const Content = () => {
     const [page] = useContext(PageContext);
@@ -12,6 +13,7 @@ const Content = () => {
         home: <HomePage />,
         projects: <ProjectPage />,
         about: <AboutPage />,
+        work: <WorkPage />,
     };
 
     return (
