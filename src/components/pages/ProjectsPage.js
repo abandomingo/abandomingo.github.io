@@ -19,14 +19,59 @@ const ProjectPage = () => {
                                 hosted on Github Pages as SPA (Single Page
                                 Application).
                                 <br/>
-                                <a href ="https://github.com/abandomingo">View Here</a>
+                                <a href ="https://github.com/abandomingo/abandomingo.github.io" target="blank">View Code Here</a>
                             </p>
                             <GithubLogo
                                 width="40"
                                 height="40"
                                 onClick={() => {
                                     window.location.href =
-                                        "https://github.com/abandomingo";
+                                        "https://github.com/abandomingo/abandomingo.github.io";
+                                }}
+                            />
+                        </Col>
+                    </Row>
+                </Container>
+                <Container style={{ padding: "50px" }}>
+                    <Row>
+                        <Col>
+                            <h3>Flex - Social Media App</h3>
+                            <p>
+                            A Social Media, Fitness App that emphasized daily progress for users.
+                            Featured login, register, user account profile, file upload, file storage, 
+                            camera use and post interaction. Developed using SwiftUI and Firbase Database.
+                            Created by Me, Derek Lee, David Vu, Valeria Sanchez.
+                            <br/>
+                            <a href ="https://github.com/abandomingo/Flex" target="blank">View Code Here</a>
+                            </p>
+                            <GithubLogo
+                                width="40"
+                                height="40"
+                                onClick={() => {
+                                    window.location.href =
+                                        "https://github.com/abandomingo/Flex";
+                                }}
+                            />
+                        </Col>
+                    </Row>
+                </Container>
+                <Container style={{ padding: "50px" }}>
+                    <Row>
+                        <Col>
+                            <h3>Python - Flask Backend Authentication</h3>
+                            <p>
+                            A mock backend server demonstration that allows users to 
+                            authenticate themselves with a JSON Web Token. Allowed users to view public information as well 
+                            as upload certain file types. Created for my 449 Backend Engineering Class.
+                            <br/>
+                            <a href ="https://www.youtube.com/watch?v=GUVLpjrvIDo" target="blank">View Demo Here</a>
+                            </p>
+                            <YoutubeLogo
+                                width="40"
+                                height="40"
+                                onClick={() => {
+                                    window.location.href =
+                                        "https://www.youtube.com/watch?v=GUVLpjrvIDo";
                                 }}
                             />
                         </Col>
@@ -41,12 +86,12 @@ const ProjectPage = () => {
                             retrieve and update data from a MYSQL Workbench database. 
                             Made using PHP, SQL, HTML, and CSS with the use of XAMPP and MYSQL Workbench.
                             <br/>
-                            <a href ="https://www.youtube.com/watch?v=Lb-wremQen0">View Here</a>
+                            <a href ="https://www.youtube.com/watch?v=Lb-wremQen0" target="blank">View Demo Here</a>
                             </p>
                             <YoutubeLogo
                                 width="40"
                                 height="40"
-                                onClick={() => {
+                                onClick={( ) => {
                                     window.location.href =
                                         "https://www.youtube.com/watch?v=Lb-wremQen0";
                                 }}
@@ -83,6 +128,7 @@ const ProjectPage = () => {
                                 their friends and generate clones of them. Created using Unity engine 
                                 and C#.
                             </p>
+                            
                             <GithubLogo
                                 width="40"
                                 height="40"

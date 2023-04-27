@@ -75,7 +75,7 @@ const SkillsBlock = () => {
                 </Row>
             </FadeInFromRight>
             <FadeInFromRight>
-                <Row style={{ padding: "10px", paddingBottom: "200px" }}>
+                <Row style={{ padding: "10px", paddingBottom: "100px" }}>
                     <Col>
                         <h4 class="text-info">Database and Data Analysis</h4>
                         <ul class="display-5 text-info">
@@ -88,10 +88,20 @@ const SkillsBlock = () => {
                         <h3 class="text-info">Other</h3>
                         <ul class="display-5 text-info">
                             <li>Unity</li>
-                            <li>Plastic SCM</li>
+                            <li>Postman</li>
                             <li>Replit</li>
                         </ul>
                     </Col>
+                </Row>
+            </FadeInFromRight>
+            <FadeInFromLeft>
+                <Row>
+                    <h1 class="display-3 my-3 text-info">Certification</h1>
+                </Row>
+            </FadeInFromLeft>
+            <FadeInFromRight>
+                <Row style={{ padding: "10px", paddingBottom: "200px" }}>
+                   <span class="display-5 text-info">Google Data Analytics Certified  September 2022 - January 2023</span>
                 </Row>
             </FadeInFromRight>
         </Container>
