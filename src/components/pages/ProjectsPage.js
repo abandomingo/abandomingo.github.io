@@ -1,7 +1,8 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import { GithubLogo } from "../../assets/icons/icons";
 import { YoutubeLogo } from "../../assets/icons/icons";
 import { FadeInFromLeft } from "../Animations";
+import  YourSongList from "../../assets/Your-Song-List.gif"
 
 // TODO: Programmatically create the projects blocks from a json.
 
@@ -9,9 +10,9 @@ const ProjectPage = () => {
     return (
         <Container>
             <FadeInFromLeft>
-                <Container style={{ padding: "50px" }}>
+                <Container style={{ padding: "4rem 0" }}>
                     <Row>
-                        <Col>
+                        <Col >
                             <h3>Personal Portfolio Website</h3>
                             <p>
                                 This personal website is open-source and free to
@@ -32,14 +33,38 @@ const ProjectPage = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "50px" }}>
+                <Container style={{ padding: "4rem 0" }}>
+                    <Row >
+                        <Col >
+                            <h3>Your Song List</h3>
+                            <p>
+                            See what's currently playing on Spotify or fetch your favorite Songs in the past month, 6 months or all time! 
+                            Made using Spotify API, Express, React, HTML, and CSS. This webiste was made for my frontend engineering class.
+                            <br/>
+                            <a href ="https://github.com/abandomingo/Your-Song-List" target="blank">View Code Here</a>
+                            </p>
+                            <GithubLogo
+                                width="40"
+                                height="40"
+                                onClick={() => {
+                                    window.location.href =
+                                        "https://github.com/abandomingo/Your-Song-List";
+                                }}
+                            />
+                        </Col>
+                        <Col>
+                            <Image src={YourSongList}width="560" height="315"/>
+                        </Col>
+                    </Row>
+                </Container>
+                <Container style={{ padding: "4rem 0" }}>
                     <Row>
                         <Col>
                             <h3>Flex - Social Media App</h3>
                             <p>
                             A Social Media, Fitness App that emphasized daily progress for users.
                             Featured login, register, user account profile, file upload, file storage, 
-                            camera use and post interaction. Developed using SwiftUI and Firbase Database.
+                            camera use and post interaction. Developed using SwiftUI and Firebase Database.
                             Created by Me, Derek Lee, David Vu, Valeria Sanchez.
                             <br/>
                             <a href ="https://github.com/abandomingo/Flex" target="blank">View Code Here</a>
@@ -55,7 +80,7 @@ const ProjectPage = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "50px" }}>
+                <Container style={{ padding: "4rem 0" }}>
                     <Row>
                         <Col>
                             <h3>Python - Flask Backend Authentication</h3>
@@ -75,9 +100,16 @@ const ProjectPage = () => {
                                 }}
                             />
                         </Col>
+                        <Col>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/GUVLpjrvIDo" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                            </iframe>
+                        </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "50px" }}>
+                <Container style={{ padding: "4rem 0" }}>
                     <Row>
                         <Col>
                             <h3>Doctor Office Website</h3>
@@ -97,9 +129,15 @@ const ProjectPage = () => {
                                 }}
                             />
                         </Col>
+                        <Col>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Lb-wremQen0" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                            </iframe>
+                        </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "50px" }}>
+                <Container style={{ padding: "4rem 0" }}>
                     <Row>
                         <Col>
                             <h3>Kaprekar's Constant Calculator</h3>
@@ -119,7 +157,7 @@ const ProjectPage = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "50px" }}>
+                <Container style={{ padding: "4rem 0" }}>
                     <Row>
                         <Col>
                             <h3>Click Your Friends!</h3>
