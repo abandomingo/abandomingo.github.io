@@ -1,9 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.397bab72.css",
-    "main.js": "/static/js/main.64b128ff.js",
+    "main.js": "/static/js/main.00401b19.js",
     "static/js/787.8430ff8d.chunk.js": "/static/js/787.8430ff8d.chunk.js",
-    "static/media/Your-Song-List.gif": "/static/media/Your-Song-List.6eee67ee37824ac28f7b.gif",
+    "static/media/Top-Songs.gif": "/static/media/Top-Songs.e688e08dc56c220d4ede.gif",
+    "static/media/FlexLogin.png": "/static/media/FlexLogin.b8f88b19bcbdc67f29dd.png",
+    "static/media/FlexRegister.png": "/static/media/FlexRegister.e47ffe31499db239be52.png",
+    "static/media/FlexFeed.png": "/static/media/FlexFeed.718f7b6af546bd5a6e83.png",
+    "static/media/home-listing.jpg": "/static/media/home-listing.9798024da9fb011b3a58.jpg",
     "static/media/me_nature.jpg": "/static/media/me_nature.e1c997c1acfc297db473.jpg",
     "static/media/me_@SB.jpg": "/static/media/me_@SB.1cb1cc518677d0bb5dee.jpg",
     "static/media/sql.svg": "/static/media/sql.fff3849126fd775925367cb3b06dc4e6.svg",
@@ -21,11 +25,11 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.4754e66e5b281977048169c71e64154b.svg",
     "main.397bab72.css.map": "/static/css/main.397bab72.css.map",
-    "main.64b128ff.js.map": "/static/js/main.64b128ff.js.map",
+    "main.00401b19.js.map": "/static/js/main.00401b19.js.map",
     "787.8430ff8d.chunk.js.map": "/static/js/787.8430ff8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.397bab72.css",
-    "static/js/main.64b128ff.js"
+    "static/js/main.00401b19.js"
   ]
 }
