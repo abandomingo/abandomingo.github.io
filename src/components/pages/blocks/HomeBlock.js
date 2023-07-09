@@ -11,13 +11,18 @@ import {
 const HomeBlock = () => {
     return (
         <div class="heading-3 center text-info">
-        <Col>
+        
             <FadeInFromTop>
                 <Row>
-                    <Image className="rounded mx-auto d-block" src={Profile}/>
+                    <Col>
+                        <Image 
+                            className="rounded mx-auto d-block img-fluid" 
+                            src={Profile}
+                            alt="Profile Picture"
+                        />
+                    </Col>
                 </Row>
             </FadeInFromTop>
-        </Col>
             <FadeInFromTop>
                 <Row>
                     <h3 class="display-4 auto">Aban Michael Domingo</h3>

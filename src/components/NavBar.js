@@ -6,7 +6,7 @@ const NavBar = () => {
     const [, setPage] = useContext(PageContext);
     return (
         <div class="bg-dark">
-            <div class="container justify-content-center">
+            <div class="container justify-content-space-evenly">
                 <Nav
                     activeKey="/home"
                     class="navbar navbar-expand-md bg-black navbar-dark"
