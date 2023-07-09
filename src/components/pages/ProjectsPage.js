@@ -35,7 +35,7 @@ const ProjectPage = () => {
                 </Container>
                 <Container style={{ padding: "4rem 0" }}>
                     <Row >
-                        <Col >
+                        <Col>
                             <h3>Your Song List</h3>
                             <p>
                             See what's currently playing on Spotify or fetch your favorite Songs in the past month, 6 months or all time! 
