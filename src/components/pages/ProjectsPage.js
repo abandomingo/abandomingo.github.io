@@ -2,7 +2,11 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { GithubLogo } from "../../assets/icons/icons";
 import { YoutubeLogo } from "../../assets/icons/icons";
 import { FadeInFromLeft } from "../Animations";
-import  YourSongList from "../../assets/Your-Song-List.gif"
+import  YourSongList from "../../assets/Top-Songs.gif";
+import FlexLogin from "../../assets/FlexLogin.png";
+import FlexRegister from "../../assets/FlexRegister.png";
+import FlexFeed from "../../assets/FlexFeed.png";
+import HomeListing from "../../assets/home-listing.jpg";
 
 // TODO: Programmatically create the projects blocks from a json.
 
@@ -43,14 +47,6 @@ const ProjectPage = () => {
                             <br/>
                             <a href ="https://github.com/abandomingo/Your-Song-List" target="blank">View Code Here</a>
                             </p>
-                            <GithubLogo
-                                width="40"
-                                height="40"
-                                onClick={() => {
-                                    window.location.href =
-                                        "https://github.com/abandomingo/Your-Song-List";
-                                }}
-                            />
                         </Col>
                         <Col>
                             <Image src={YourSongList}width="560" height="315"/>
@@ -77,6 +73,36 @@ const ProjectPage = () => {
                                         "https://github.com/abandomingo/Flex";
                                 }}
                             />
+                        </Col>
+                        <Col>
+                            <Image style={{ margin: "0 0.5rem "}} src={FlexLogin} width="150" height="316"/>
+                            <Image style={{ margin: "0 0.5rem "}} src={FlexRegister} width="150" height="316"/>
+                            <Image style={{ margin: "0 0.5rem "}} src={FlexFeed} width="150" height="316"/>
+                        </Col>
+                    </Row>
+                </Container>
+                <Container style={{ padding: "4rem 0" }}>
+                    <Row>
+                        <Col >
+                            <h3>Example Home Listing Website</h3>
+                            <p>
+                                This is a personal project I made using Angular and TypeScript
+                                to help me get accustomed to the Angular Framework. It features examples of listed
+                                homes in the marketplace and details about each home.
+                                <br/>
+                                <a href ="https://abandomingo-angular.netlify.app/" target="blank">View Site Here</a>
+                            </p>
+                            <GithubLogo
+                                width="40"
+                                height="40"
+                                onClick={() => {
+                                    window.location.href =
+                                        "https://github.com/abandomingo/angular-app-1";
+                                }}
+                            />
+                        </Col>
+                        <Col>
+                            <Image style={{ margin: "0 0.5rem "}} src={HomeListing} width="560" height="315"/>
                         </Col>
                     </Row>
                 </Container>

@@ -10,7 +10,7 @@ const WorkPage = () => {
                 <Row>
                     <Col>
                         <h3>Web Developer / IT Intern - Eibach</h3>
-                        <p>Janurary 2023 - Present </p>
+                        <p>Janurary 2023 - July 2023</p>
                         <ul>
                             <li> Created 10+ new Broadcast Pages for upcoming products using  HTML, CSS, and PHP 
                                 with the Laravel Framework. Focused on web responsiveness and SEO (Search Engine Optimization) 
