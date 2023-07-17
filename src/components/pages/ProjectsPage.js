@@ -14,7 +14,7 @@ const ProjectPage = () => {
     return (
         <Container>
             <FadeInFromLeft>
-                <Container style={{ padding: "4rem 0" }}>
+                <Container className="auto" style={{ padding: "4rem 0" }}>
                     <Row>
                         <Col >
                             <h3>Personal Portfolio Website</h3>
@@ -23,111 +23,114 @@ const ProjectPage = () => {
                                 use as a template. Developed using React and
                                 hosted on Github Pages as SPA (Single Page
                                 Application).
-                                <br/>
-                                <a href ="https://github.com/abandomingo/abandomingo.github.io" target="blank">View Code Here</a>
                             </p>
+                            <a href ="https://github.com/abandomingo/abandomingo.github.io" target="blank">View Code Here</a>
                             <GithubLogo
+                                style={{ marginLeft: "1rem"}}
                                 width="40"
                                 height="40"
                                 onClick={() => {
-                                    window.location.href =
-                                        "https://github.com/abandomingo/abandomingo.github.io";
+                                    window.open("https://github.com/abandomingo/abandomingo.github.io", "_blank");
                                 }}
                             />
                         </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "4rem 0" }}>
+                <Container className="auto" style={{ padding: "4rem 0" }}>
                     <Row >
-                        <Col>
+                        <Col xs={12} lg={6} >
                             <h3>Your Song List</h3>
                             <p>
                             See what's currently playing on Spotify or fetch your favorite Songs in the past month, 6 months or all time! 
                             Made using Spotify API, Express, React, HTML, and CSS. This webiste was made for my frontend engineering class.
-                            <br/>
-                            <a href ="https://github.com/abandomingo/Your-Song-List" target="blank">View Code Here</a>
                             </p>
+                            <a href ="https://github.com/abandomingo/Your-Song-List" target="blank">View Code Here</a>
+                            <GithubLogo
+                                style={{ marginLeft: "1rem"}}
+                                width="40"
+                                height="40"
+                                onClick={() => {
+                                    window.open("https://github.com/abandomingo/Your-Song-List", "_blank");
+                                }}
+                            />
                         </Col>
-                        <Col>
-                            <Image src={YourSongList}width="560" height="315"/>
+                        <Col xs={12} lg={6}>
+                            <Image src={YourSongList} className="mobile-image"/>
                         </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "4rem 0" }}>
+                <Container  className="auto" style={{ padding: "4rem 0" }}>
                     <Row>
-                        <Col>
+                        <Col xs={12} lg={6} >
                             <h3>Flex - Social Media App</h3>
                             <p>
                             A Social Media, Fitness App that emphasized daily progress for users.
                             Featured login, register, user account profile, file upload, file storage, 
                             camera use and post interaction. Developed using SwiftUI and Firebase Database.
                             Created by Me, Derek Lee, David Vu, Valeria Sanchez.
-                            <br/>
-                            <a href ="https://github.com/abandomingo/Flex" target="blank">View Code Here</a>
                             </p>
+                            <a href ="https://github.com/abandomingo/Flex" target="blank">View Code Here</a>
                             <GithubLogo
+                                style={{ marginLeft: "1rem"}}
                                 width="40"
                                 height="40"
                                 onClick={() => {
-                                    window.location.href =
-                                        "https://github.com/abandomingo/Flex";
+                                    window.open("https://github.com/abandomingo/Flex", "_blank");
                                 }}
                             />
                         </Col>
-                        <Col>
-                            <Image style={{ margin: "0 0.5rem "}} src={FlexLogin} width="150" height="316"/>
-                            <Image style={{ margin: "0 0.5rem "}} src={FlexRegister} width="150" height="316"/>
-                            <Image style={{ margin: "0 0.5rem "}} src={FlexFeed} width="150" height="316"/>
+                        <Col xs={12} lg={6} className="justify-content-center" style={{ padding: "1rem 0 0 0"}}>
+                            <Image style={{ margin: "0 0.5rem "}} src={FlexLogin} className="mobile-screenshot"/>
+                            <Image style={{ margin: "0 0.5rem "}} src={FlexRegister} className="mobile-screenshot"/>
+                            <Image style={{ margin: "0 0.5rem "}} src={FlexFeed} className="mobile-screenshot"/>
                         </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "4rem 0" }}>
+                <Container className="auto" style={{ padding: "4rem 0" }}>
                     <Row>
-                        <Col >
+                        <Col xs={12} lg={6}>
                             <h3>Example Home Listing Website</h3>
                             <p>
                                 This is a personal project I made using Angular and TypeScript
                                 to help me get accustomed to the Angular Framework. It features examples of listed
                                 homes in the marketplace and details about each home.
-                                <br/>
-                                <a href ="https://abandomingo-angular.netlify.app/" target="blank">View Site Here</a>
                             </p>
+                            <a href ="https://abandomingo-angular.netlify.app/" target="blank">View Site Here</a>
                             <GithubLogo
+                                style={{ marginLeft: "1rem"}}
                                 width="40"
                                 height="40"
                                 onClick={() => {
-                                    window.location.href =
-                                        "https://github.com/abandomingo/angular-app-1";
+                                    window.open("https://github.com/abandomingo/angular-app-1", "_blank");
                                 }}
                             />
                         </Col>
-                        <Col>
-                            <Image style={{ margin: "0 0.5rem "}} src={HomeListing} width="560" height="315"/>
+                        <Col xs={12} lg={6} className="justify-content-center" style={{ textAlign: "center", padding: "1rem 0 0 0"}}>
+                            <Image src={HomeListing} className="mobile-image"/>
                         </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "4rem 0" }}>
+                <Container className="auto" style={{ padding: "4rem 0" }}>
                     <Row>
-                        <Col>
+                        <Col xs={12} lg={6}>
                             <h3>Python - Flask Backend Authentication</h3>
                             <p>
                             A mock backend server demonstration that allows users to 
                             authenticate themselves with a JSON Web Token. Allowed users to view public information as well 
                             as upload certain file types. Created for my 449 Backend Engineering Class.
-                            <br/>
-                            <a href ="https://www.youtube.com/watch?v=GUVLpjrvIDo" target="blank">View Demo Here</a>
                             </p>
+                            <a href ="https://www.youtube.com/watch?v=GUVLpjrvIDo" target="blank">View Demo Here</a>
                             <YoutubeLogo
+                                style={{ marginLeft: "1rem"}}
                                 width="40"
                                 height="40"
                                 onClick={() => {
-                                    window.location.href =
-                                        "https://www.youtube.com/watch?v=GUVLpjrvIDo";
+                                    window.open("https://www.youtube.com/watch?v=GUVLpjrvIDo", "_blank");
                                 }}
                             />
                         </Col>
-                        <Col>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/GUVLpjrvIDo" 
+                        <Col xs={12} lg={6}>
+                            <iframe  className="mobile-image" src="https://www.youtube.com/embed/GUVLpjrvIDo" 
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
                             clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                             allowfullscreen>
@@ -135,35 +138,35 @@ const ProjectPage = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "4rem 0" }}>
+                <Container className="auto" style={{ padding: "4rem 0" }}>
                     <Row>
-                        <Col>
+                        <Col xs={12} lg={6}>
                             <h3>Doctor Office Website</h3>
                             <p>
                             A mock hospital website with database integration that allows users to 
                             retrieve and update data from a MYSQL Workbench database. 
                             Made using PHP, SQL, HTML, and CSS with the use of XAMPP and MYSQL Workbench.
-                            <br/>
-                            <a href ="https://www.youtube.com/watch?v=Lb-wremQen0" target="blank">View Demo Here</a>
                             </p>
+                            <a href ="https://www.youtube.com/watch?v=Lb-wremQen0" target="blank">View Demo Here</a>
                             <YoutubeLogo
+                                style={{ marginLeft: "1rem"}}
                                 width="40"
                                 height="40"
                                 onClick={( ) => {
-                                    window.location.href =
-                                        "https://www.youtube.com/watch?v=Lb-wremQen0";
+                                    window.open ("https://www.youtube.com/watch?v=Lb-wremQen0", "_blank");
                                 }}
+
                             />
                         </Col>
-                        <Col>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Lb-wremQen0" 
+                        <Col xs={12} lg={6}>
+                            <iframe className="mobile-image" src="https://www.youtube.com/embed/Lb-wremQen0" 
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
                             encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                             </iframe>
                         </Col>
                     </Row>
                 </Container>
-                <Container style={{ padding: "4rem 0" }}>
+                <Container className="auto" style={{ padding: "4rem 0" }}>
                     <Row>
                         <Col>
                             <h3>Kaprekar's Constant Calculator</h3>
@@ -178,27 +181,6 @@ const ProjectPage = () => {
                                 onClick={() => {
                                     window.location.href =
                                         "https://github.com/abandomingo/kaprekarconstant";
-                                }}
-                            />
-                        </Col>
-                    </Row>
-                </Container>
-                <Container style={{ padding: "4rem 0" }}>
-                    <Row>
-                        <Col>
-                            <h3>Click Your Friends!</h3>
-                            <p>
-                                Interactive idle game that allows users to import photos of 
-                                their friends and generate clones of them. Created using Unity engine 
-                                and C#.
-                            </p>
-                            
-                            <GithubLogo
-                                width="40"
-                                height="40"
-                                onClick={() => {
-                                    window.location.href =
-                                        "https://github.com/abandomingo/AccumulateRenzel";
                                 }}
                             />
                         </Col>

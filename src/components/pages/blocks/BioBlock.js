@@ -10,11 +10,11 @@ const BioBlock = () => {
         <Container style={{ paddingTop: "10px", paddingBottom: "10px" }}>
             <FadeInFromRight>
                 <Row>
-                    <h1 class="display-3 my-3 text-info">About Me</h1>
+                    <h1 class="display-3 my-3 auto text-info">About Me</h1>
                 </Row>
             </FadeInFromRight>
             <Row>
-                <Col md={4}>
+                <Col xs={12} md={4}>
                     <FadeInFromLeft>
                         <Row>
                             <Image src={Profile} roundedCircle/>
@@ -22,33 +22,33 @@ const BioBlock = () => {
                     </FadeInFromLeft>
                 </Col>
 
-                <Col md={8}>
+                <Col xs={12} md={8}>
                     <FadeInFromRight>
                         <Container style={{ padding: "50px" }}>
                             <Row>
                                 <p  
                         
-                                    class="text-light"
+                                    class="text-light auto"
                                     style={{ fontSize: "1.3em" }}
                                 >
                                     Hello! My name is Aban Michael Domingo, I am currently a student at 
-                                    CSUF and in search for internship opportunities. 
+                                    CSUF and I am looking to grow in Fullstack and Mobile Development. 
                                     <br />
                                     <br />
-                                    &emsp; I love the outdoors, spending quality time with my friends,
+                                    I love the outdoors, spending quality time with my friends,
                                     and working on side projects in my free time. 
                                     I am really passionate about innovating and creating something 
-                                    new and exciting.
+                                    that will have an impact.
                                 </p>
                             </Row>
                             <Row style={{ padding: "10px" }}>
-                                <p class="text-light">
+                                <p class="text-light auto">
                                     Currently at California State University
                                     , Fullerton
                                     <br />
-                                    2020-2024
+                                    August 2020- May 2024
                                     <br />
-                                    Majored in Computer Science
+                                    B.S. Computer Science
                                 </p>
                             </Row>
                         </Container>

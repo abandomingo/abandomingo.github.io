@@ -24,25 +24,25 @@ const SkillsBlock = () => {
                     className="justify-content-center"
                     style={{ padding: "25px", paddingBottom: "100px" }}
                 >
-                    <Col sm="auto" md="auto">
+                    <Col xs="6" md="auto">
                         <JavascriptLogo width="100" height="100" />
                     </Col>
-                    <Col sm="auto" md="auto">
+                    <Col xs="6" md="auto">
                         <PythonLogo width="100" height="100" />
                     </Col>
-                    <Col sm="auto" md="auto">
+                    <Col xs="6" md="auto">
                         <PHPLogo width="100" height="100" />
                     </Col>
-                    <Col sm="auto" md="auto">
+                    <Col xs="6" md="auto">
                         <SQLLogo width="100" height="100" />
                     </Col>
-                    <Col sm="auto" md="auto">
+                    <Col xs="6" md="auto">
                         <CPPLogo width="100" height="100" />
                     </Col>
-                    <Col sm="auto" md="auto">
+                    <Col xs="6" md="auto">
                         <Html5Logo width="100" height="100" />
                     </Col>
-                    <Col sm="auto" md="auto">
+                    <Col xs="6" md="auto">
                         <CSharpLogo width="100" height="100" />
                     </Col>
                 </Row>
@@ -56,7 +56,7 @@ const SkillsBlock = () => {
                 <Row style={{ padding: "10px" }}>
                     <Col>
                         <h3 class="text-info">Platforms</h3>
-                        <ul class="display-5 text-info">
+                        <ul class="display-5 text-info auto">
                             <li>Windows</li>
                             <li>Mac</li>
                             <li>Linux</li>
@@ -65,10 +65,10 @@ const SkillsBlock = () => {
                     </Col>
                     <Col>
                         <h3 class="text-info">Tools</h3>
-                        <ul class="display-5 text-info">
-                            <li>Visual Studio Code</li>
-                            <li>Visual Studio IDE</li>
-                            <li>Git and Github Desktop</li>
+                        <ul class="display-5 text-info auto">
+                            <li>VS Code</li>
+                            <li>Git / Github Desktop</li>
+                            <li>Postman</li>
                             
                         </ul>
                     </Col>
@@ -78,18 +78,19 @@ const SkillsBlock = () => {
                 <Row style={{ padding: "10px", paddingBottom: "100px" }}>
                     <Col>
                         <h4 class="text-info">Database and Data Analysis</h4>
-                        <ul class="display-5 text-info">
-                            <li>R Studio</li>
+                        <ul class="display-5 text-info auto">
                             <li>MySQL</li>
+                            <li>MongoDB</li>
                             <li>Microsoft Excel</li>
+                            <li>Google Firebase</li>
                         </ul>
                     </Col>
                     <Col>
-                        <h3 class="text-info">Other</h3>
-                        <ul class="display-5 text-info">
-                            <li>Unity</li>
-                            <li>Postman</li>
-                            <li>Replit</li>
+                        <h3 class="text-info">Frameworks</h3>
+                        <ul class="display-5 text-info auto">
+                            <li>React</li>
+                            <li>Angular</li>
+                            <li>Flask</li>
                         </ul>
                     </Col>
                 </Row>
@@ -101,7 +102,7 @@ const SkillsBlock = () => {
             </FadeInFromLeft>
             <FadeInFromRight>
                 <Row style={{ padding: "10px", paddingBottom: "200px" }}>
-                   <span class="display-5 text-info">Google Data Analytics Certified  September 2022 - January 2023</span>
+                    <span class="display-5 text-info">Google Data Analytics Certified  September 2022 - January 2023</span>
                 </Row>
             </FadeInFromRight>
         </Container>

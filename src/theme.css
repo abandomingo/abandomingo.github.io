@@ -7083,6 +7083,32 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important; }
 
+.mobile-image {
+  max-width: 560px;
+  max-height: 315px;
+  width: 560px;
+  height: 315px;
+}
+
+.mobile-screenshot {
+  max-width: 150px;
+  max-height: 316px;
+}
+
+@media (max-width: 767px) {
+  .auto {
+    text-align: center;
+  }
+  .mobile-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .mobile-screenshot {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 @media print {
   *,
   *::before,

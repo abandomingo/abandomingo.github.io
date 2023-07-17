@@ -6,7 +6,7 @@ const WorkPage = () => {
     return (
         <Container>
         <FadeInFromLeft>
-            <Container style={{ padding: "50px" }}>
+            <Container className="auto" style={{ padding: "50px" }}>
                 <Row>
                     <Col>
                         <h3>Web Developer / IT Intern - Eibach</h3>
@@ -30,7 +30,7 @@ const WorkPage = () => {
             </Container>
         </FadeInFromLeft>
         <FadeInFromRight>
-            <Container style={{ padding: "50px" }}>
+            <Container className="auto" style={{ padding: "50px" }}>
                 <Row>
                     <Col>
                         <h3>Cashier/Barista  - ChatTea</h3>
@@ -45,7 +45,7 @@ const WorkPage = () => {
             </Container>
         </FadeInFromRight>
         <FadeInFromLeft>
-            <Container style={{ padding: "50px" }}>
+            <Container className="auto" style={{ padding: "50px" }}>
                 <Row>
                     <Col>
                     <h3>Cashier/Barista - ShareTea</h3>
@@ -60,7 +60,7 @@ const WorkPage = () => {
             </Container>
         </FadeInFromLeft>
         <FadeInFromRight>
-            <Container style={{ padding: "50px" }}>
+            <Container className="auto" style={{ padding: "50px" }}>
                 <Row>
                     <Col>
                         <h3>Line Chef - Yoshiharu Ramen</h3>

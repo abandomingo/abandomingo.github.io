@@ -30,12 +30,12 @@ const HomeBlock = () => {
             </FadeInFromTop>
             <FadeInFromLeft>
                 <Row>
-                    <h3 class="display-6 auto">Undergraduate at California State University, Fullerton</h3>
+                    <h3 class="display-5 auto">Undergraduate at California State University, Fullerton</h3>
                 </Row>
             </FadeInFromLeft>
             <FadeInFromRight>
                 <Row>
-                    <Col sm={{ span: 2 }} md={{ span: 2, offset: 8 }}>
+                    <Col xs={6} md={{ span: 2, offset: 8 }}>
                         <GithubLogo
                             width="50"
                             height="50"
@@ -45,7 +45,7 @@ const HomeBlock = () => {
                             }}
                         />
                     </Col>
-                    <Col sm={{ span: 2 }} md={{ span: 2 }}>
+                    <Col xs={6} md={{ span: 2 }}>
                         <LinkedInLogo
                             style={{ borderRadius: "15px" }}
                             width="50"
