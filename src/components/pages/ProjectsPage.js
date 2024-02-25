@@ -2,11 +2,12 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { GithubLogo } from "../../assets/icons/icons";
 import { YoutubeLogo } from "../../assets/icons/icons";
 import { FadeInFromLeft } from "../Animations";
-import  YourSongList from "../../assets/Top-Songs.gif";
+import YourSongList from "../../assets/Top-Songs.gif";
 import FlexLogin from "../../assets/FlexLogin.png";
 import FlexRegister from "../../assets/FlexRegister.png";
 import FlexFeed from "../../assets/FlexFeed.png";
 import HomeListing from "../../assets/home-listing.jpg";
+import SimpleCalc from "../../assets/SimpleCalc.png";
 
 // TODO: Programmatically create the projects blocks from a json.
 
@@ -163,6 +164,30 @@ const ProjectPage = () => {
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
                             encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                             </iframe>
+                        </Col>
+                    </Row>
+                </Container>
+                <Container className="auto" style={{ padding: "4rem 0" }}>
+                    <Row>
+                        <Col>
+                            <h3>Simple Calculator</h3>
+                            <p>
+                            Simple HTML CSS and JS program. It follows the order of operations and has addition, subtraction, 
+                            multiplication, division, and modulus.
+                            </p>
+                            <a href ="https://abandomingo.github.io/Simple-Calulator/" target="blank">View Site Here</a>
+                            <GithubLogo
+                                style={{ marginLeft: "1rem"}}
+                                width="40"
+                                height="40"
+                                onClick={() => {
+                                    window.location.href =
+                                        "https://github.com/abandomingo/Simple-Calulator";
+                                }}
+                            />
+                        </Col>
+                        <Col xs={12} lg={6} className="justify-content-center" style={{ textAlign: "center", padding: "1rem 0 0 0"}}>
+                            <Image src={SimpleCalc} className="mobile-image"/>
                         </Col>
                     </Row>
                 </Container>
