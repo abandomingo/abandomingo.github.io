@@ -1,6 +1,6 @@
 import { Col, Row, Image } from "react-bootstrap";
 import { GithubLogo, LinkedInLogo } from "../../../assets/icons/icons";
-import Profile from "../../../assets/me_@SB.jpg";
+import Profile from "../../../assets/Grad-Photo.jpg";
 import {
     FadeInFromTop,
     FadeInFromLeft,
@@ -14,9 +14,9 @@ const HomeBlock = () => {
         
             <FadeInFromTop>
                 <Row>
-                    <Col>
+                    <Col xs={10} sm={8} className="mx-auto">
                         <Image 
-                            className="rounded mx-auto d-block img-fluid" 
+                            className="rounded img-fluid"
                             src={Profile}
                             alt="Profile Picture"
                         />
@@ -34,29 +34,30 @@ const HomeBlock = () => {
                 </Row>
             </FadeInFromLeft>
             <FadeInFromRight>
-                <Row>
-                    <Col xs={6} md={{ span: 2, offset: 8 }}>
-                        <GithubLogo
-                            width="50"
-                            height="50"
-                            onClick={() => {
-                                window.location.href =
-                                    "https://github.com/abandomingo";
-                            }}
-                        />
-                    </Col>
-                    <Col xs={6} md={{ span: 2 }}>
-                        <LinkedInLogo
-                            style={{ borderRadius: "15px" }}
-                            width="50"
-                            height="50"
-                            onClick={() => {
-                                window.location.href =
-                                    "https://www.linkedin.com/in/aban-domingo-486337224/";
-                            }}
-                        />
-                    </Col>
-                </Row>
+            <Row className="justify-content-center">
+                <Col className="text-center">
+                    <GithubLogo
+                        className="icon-link"
+                        width="50"
+                        height="50"
+                        onClick={() => {
+                            window.location.href =
+                                "https://github.com/abandomingo";
+                        }}
+                    />
+                </Col>
+                <Col className="text-center">
+                    <LinkedInLogo
+                        className="icon-link" 
+                        width="50"
+                        height="50"
+                        onClick={() => {
+                            window.location.href =
+                                "https://www.linkedin.com/in/aban-domingo-486337224/";
+                        }}
+                    />
+                </Col>
+            </Row>
             </FadeInFromRight>
         </div>
     );

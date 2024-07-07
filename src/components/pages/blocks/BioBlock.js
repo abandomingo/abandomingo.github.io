@@ -31,8 +31,7 @@ const BioBlock = () => {
                                     class="text-light auto"
                                     style={{ fontSize: "1.3em" }}
                                 >
-                                    Hello! My name is Aban Michael Domingo, I am currently a student at 
-                                    CSUF and I am looking to grow in Fullstack and Mobile Development. 
+                                    Hello! My name is Aban Michael Domingo, I am Junior Frontend Developer at HITRUST.
                                     <br />
                                     <br />
                                     I love the outdoors, spending quality time with my friends,
@@ -43,7 +42,7 @@ const BioBlock = () => {
                             </Row>
                             <Row style={{ padding: "10px" }}>
                                 <p class="text-light auto">
-                                    Currently at California State University
+                                    California State University
                                     , Fullerton
                                     <br />
                                     August 2020- May 2024

@@ -10,7 +10,7 @@ const NavBar = () => {
                 <Nav
                     activeKey="/home"
                     class="navbar navbar-expand-md bg-black navbar-dark"
-                    style={{ height: "10vh" }}
+                    style={{ height: "10vh", flexWrap: "none", padding: 0 }}
                 >
                     <Nav.Item class="nav-item mx-2">
                         <Nav.Link

@@ -8,6 +8,7 @@ import FlexRegister from "../../assets/FlexRegister.png";
 import FlexFeed from "../../assets/FlexFeed.png";
 import HomeListing from "../../assets/home-listing.jpg";
 import SimpleCalc from "../../assets/SimpleCalc.png";
+import BFF from "../../assets/BFF-APP.png"
 
 // TODO: Programmatically create the projects blocks from a json.
 
@@ -28,12 +29,38 @@ const ProjectPage = () => {
                             <a href ="https://github.com/abandomingo/abandomingo.github.io" target="blank">View Code Here</a>
                             <GithubLogo
                                 style={{ marginLeft: "1rem"}}
+                                className="icon-link"
                                 width="40"
                                 height="40"
                                 onClick={() => {
                                     window.open("https://github.com/abandomingo/abandomingo.github.io", "_blank");
                                 }}
                             />
+                        </Col>
+                    </Row>
+                </Container>
+                <Container className="auto" style={{ padding: "4rem 0" }}>
+                    <Row>
+                        <Col xs={12} lg={6}>
+                            <h3>BFF Finance Calculator</h3>
+                            <p>
+                                This is a finance calculator SPA where users can learn more about their finances 
+                                and see insightful inforgraphics based on their spending. This was created using Angular 17
+                                and hosted on Github Pages. 
+                            </p>
+                            <a href ="https://abandomingo.github.io/BFF-App/home" target="blank">View Site Here</a>
+                            <GithubLogo
+                                style={{ marginLeft: "1rem"}}
+                                className="icon-link"
+                                width="40"
+                                height="40"
+                                onClick={() => {
+                                    window.open("https://github.com/abandomingo/BFF-App", "_blank");
+                                }}
+                            />
+                        </Col>
+                        <Col xs={12} lg={6}>
+                            <Image src={BFF} className="mobile-image"/>
                         </Col>
                     </Row>
                 </Container>
@@ -48,6 +75,7 @@ const ProjectPage = () => {
                             <a href ="https://github.com/abandomingo/Your-Song-List" target="blank">View Code Here</a>
                             <GithubLogo
                                 style={{ marginLeft: "1rem"}}
+                                className="icon-link"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -73,6 +101,7 @@ const ProjectPage = () => {
                             <a href ="https://github.com/abandomingo/Flex" target="blank">View Code Here</a>
                             <GithubLogo
                                 style={{ marginLeft: "1rem"}}
+                                className="icon-link"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -99,6 +128,7 @@ const ProjectPage = () => {
                             <a href ="https://abandomingo-angular.netlify.app/" target="blank">View Site Here</a>
                             <GithubLogo
                                 style={{ marginLeft: "1rem"}}
+                                className="icon-link"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -123,6 +153,7 @@ const ProjectPage = () => {
                             <a href ="https://www.youtube.com/watch?v=GUVLpjrvIDo" target="blank">View Demo Here</a>
                             <YoutubeLogo
                                 style={{ marginLeft: "1rem"}}
+                                className="icon-link"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -151,6 +182,7 @@ const ProjectPage = () => {
                             <a href ="https://www.youtube.com/watch?v=Lb-wremQen0" target="blank">View Demo Here</a>
                             <YoutubeLogo
                                 style={{ marginLeft: "1rem"}}
+                                className="icon-link"
                                 width="40"
                                 height="40"
                                 onClick={( ) => {
@@ -178,6 +210,7 @@ const ProjectPage = () => {
                             <a href ="https://abandomingo.github.io/Simple-Calulator/" target="blank">View Site Here</a>
                             <GithubLogo
                                 style={{ marginLeft: "1rem"}}
+                                className="icon-link"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -203,6 +236,7 @@ const ProjectPage = () => {
                             <GithubLogo
                                 width="40"
                                 height="40"
+                                className="icon-link"
                                 onClick={() => {
                                     window.location.href =
                                         "https://github.com/abandomingo/kaprekarconstant";
