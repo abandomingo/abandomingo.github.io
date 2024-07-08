@@ -31,7 +31,7 @@ const BioBlock = () => {
                                     class="text-light auto"
                                     style={{ fontSize: "1.3em" }}
                                 >
-                                    Hello! My name is Aban Michael Domingo, I am Junior Frontend Developer at HITRUST.
+                                    Hello! My name is Aban Michael Domingo, I am a Junior Frontend Developer at HITRUST.
                                     <br />
                                     <br />
                                     I love the outdoors, spending quality time with my friends,
