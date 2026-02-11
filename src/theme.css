@@ -7179,3 +7179,20 @@ a.text-dark:hover, a.text-dark:focus {
 .icon-link {
   cursor: pointer;
 }
+
+.jiggle-icon {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.jiggle-icon:hover {
+  animation: jiggle 0.4s ease-in-out;
+}
+
+@keyframes jiggle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-8deg); }
+  50% { transform: rotate(8deg); }
+  75% { transform: rotate(-4deg); }
+  100% { transform: rotate(0deg); }
+}

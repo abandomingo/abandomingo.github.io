@@ -69,6 +69,7 @@ const SkillsBlock = () => {
                             <li>VS Code</li>
                             <li>Git / Github Desktop</li>
                             <li>Postman</li>
+                            <li>Figma</li>
                             
                         </ul>
                     </Col>
@@ -91,6 +92,7 @@ const SkillsBlock = () => {
                             <li>React</li>
                             <li>Angular</li>
                             <li>Flask</li>
+                            <li>Laravel</li>
                         </ul>
                     </Col>
                 </Row>

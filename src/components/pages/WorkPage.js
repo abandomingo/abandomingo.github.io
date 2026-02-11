@@ -10,12 +10,12 @@ const WorkPage = () => {
                 <Row>
                     <Col>
                         <h3>Junior Frontend Developer - HITRUST</h3>
-                        <p>August 2023 - Present </p>
+                        <p>August 2023 - Feburary 2026 </p>
                         <ul>
-                            <li>Developed and implemented UI components in Angular Framework 17, contributing to the enhancement of the user interface and overall user experience.</li>
+                            <li>Developed and implemented UI components in Angular Framework 20+, contributing to the enhancement of the user interface and overall user experience.</li>
                             <li>Collaborated closely with UI/UX designers to bring creative concepts to life, ensuring seamless integration of design elements into the website.</li>
                             <li>Played a key role in Agile development practices, actively participating in scrum meetings, sprint planning, and sprint reviews, fostering a collaborative and efficient team environment.</li>
-                            <li>Successfully converted legacy code into a more modern and efficient framework, improving system performance and maintainability.</li>
+                            <li>Successfully converted legacy code (AngularJS, Razor, and C#) into a more modern and efficient framework (Angular 20, Java), improving system performance and maintainability.</li>
                         </ul>
                     </Col>
                 </Row>

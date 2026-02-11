@@ -17,7 +17,7 @@ const BioBlock = () => {
                 <Col xs={12} md={4}>
                     <FadeInFromLeft>
                         <Row>
-                            <Image src={Profile} roundedCircle/>
+                            <Image src={Profile}/>
                         </Row>
                     </FadeInFromLeft>
                 </Col>
@@ -31,7 +31,7 @@ const BioBlock = () => {
                                     class="text-light auto"
                                     style={{ fontSize: "1.3em" }}
                                 >
-                                    Hello! My name is Aban Michael Domingo, I am a Junior Frontend Developer at HITRUST.
+                                    Hello! My name is Aban Michael Domingo, I am currently looking for work as a Frontend Developer.
                                     <br />
                                     <br />
                                     I love the outdoors, spending quality time with my friends,

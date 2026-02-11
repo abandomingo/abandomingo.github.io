@@ -24,20 +24,20 @@ const HomeBlock = () => {
                 </Row>
             </FadeInFromTop>
             <FadeInFromTop>
-                <Row>
+                <Row className="justify-content-center">
                     <h3 class="display-4 auto">Aban Michael Domingo</h3>
                 </Row>
             </FadeInFromTop>
             <FadeInFromLeft>
-                <Row>
-                    <h3 class="display-5 auto">Undergraduate at California State University, Fullerton</h3>
+                <Row className="justify-content-center">
+                    <h3 class="display-5 auto ">Junior Frontend Developer, <i>Currently Seeking Work Opportunities</i></h3>
                 </Row>
             </FadeInFromLeft>
             <FadeInFromRight>
             <Row className="justify-content-center">
                 <Col className="text-center">
                     <GithubLogo
-                        className="icon-link"
+                        className="icon-link jiggle-icon"
                         width="50"
                         height="50"
                         onClick={() => {
@@ -48,7 +48,7 @@ const HomeBlock = () => {
                 </Col>
                 <Col className="text-center">
                     <LinkedInLogo
-                        className="icon-link" 
+                        className="icon-link jiggle-icon" 
                         width="50"
                         height="50"
                         onClick={() => {

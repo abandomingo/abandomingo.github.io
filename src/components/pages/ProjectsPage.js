@@ -29,7 +29,7 @@ const ProjectPage = () => {
                             <a href ="https://github.com/abandomingo/abandomingo.github.io" target="blank">View Code Here</a>
                             <GithubLogo
                                 style={{ marginLeft: "1rem"}}
-                                className="icon-link"
+                                className="icon-link jiggle-icon"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -49,9 +49,9 @@ const ProjectPage = () => {
                                 and hosted on Github Pages. 
                             </p>
                             <a href ="https://abandomingo.github.io/BFF-App/home" target="blank">View Site Here</a>
-                            <GithubLogo
+                            <GithubLogo 
                                 style={{ marginLeft: "1rem"}}
-                                className="icon-link"
+                                className="icon-link jiggle-icon"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -75,7 +75,7 @@ const ProjectPage = () => {
                             <a href ="https://github.com/abandomingo/Your-Song-List" target="blank">View Code Here</a>
                             <GithubLogo
                                 style={{ marginLeft: "1rem"}}
-                                className="icon-link"
+                                className="icon-link jiggle-icon"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -101,7 +101,7 @@ const ProjectPage = () => {
                             <a href ="https://github.com/abandomingo/Flex" target="blank">View Code Here</a>
                             <GithubLogo
                                 style={{ marginLeft: "1rem"}}
-                                className="icon-link"
+                                className="icon-link jiggle-icon"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -128,7 +128,7 @@ const ProjectPage = () => {
                             <a href ="https://abandomingo-angular.netlify.app/" target="blank">View Site Here</a>
                             <GithubLogo
                                 style={{ marginLeft: "1rem"}}
-                                className="icon-link"
+                                className="icon-link jiggle-icon"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -153,7 +153,7 @@ const ProjectPage = () => {
                             <a href ="https://www.youtube.com/watch?v=GUVLpjrvIDo" target="blank">View Demo Here</a>
                             <YoutubeLogo
                                 style={{ marginLeft: "1rem"}}
-                                className="icon-link"
+                                className="icon-link jiggle-icon"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -182,7 +182,7 @@ const ProjectPage = () => {
                             <a href ="https://www.youtube.com/watch?v=Lb-wremQen0" target="blank">View Demo Here</a>
                             <YoutubeLogo
                                 style={{ marginLeft: "1rem"}}
-                                className="icon-link"
+                                className="icon-link jiggle-icon"
                                 width="40"
                                 height="40"
                                 onClick={( ) => {
@@ -210,7 +210,7 @@ const ProjectPage = () => {
                             <a href ="https://abandomingo.github.io/Simple-Calulator/" target="blank">View Site Here</a>
                             <GithubLogo
                                 style={{ marginLeft: "1rem"}}
-                                className="icon-link"
+                                className="icon-link jiggle-icon"
                                 width="40"
                                 height="40"
                                 onClick={() => {
@@ -236,7 +236,7 @@ const ProjectPage = () => {
                             <GithubLogo
                                 width="40"
                                 height="40"
-                                className="icon-link"
+                                className="icon-link jiggle-icon"
                                 onClick={() => {
                                     window.location.href =
                                         "https://github.com/abandomingo/kaprekarconstant";
